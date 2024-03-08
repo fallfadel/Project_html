@@ -1,0 +1,61 @@
+button{
+    display: inline-block;
+    background-color: cyan;
+    border-radius: 10px;border: none;
+    box-shadow: 0 0 5px cyan , 0 0  30px cyan;
+    margin-top: 10px;margin-left: 4px;
+    
+}
+button:hover{
+    box-shadow: 0 0 5px yellow , 0 0  30px yellow;
+}
+body{
+    background-image: url(giseh_piramide.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+li{
+    font-size: 30px;
+    font-style: italic;
+    list-style: none;
+}
+a{
+    color: black;
+    font-size: large;
+}
+p{
+    font-size: x-large;
+    margin: 10px;
+    transition: 400ms;
+}
+p:hover{
+    background-color: black;
+    border-radius: 10px;
+}
+#scroller{
+    overflow: hidden;
+    backdrop-filter: blur(20px);background-color: rgba(0, 0, 0, 0.558);
+    padding: 5px;
+    border-radius: 10px;
+    height: 3000px;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+#tail{
+    height: 450px;
+}
+img{
+    width: 900px;
+    border-radius: 10px;
+}
+h3{
+    margin-top: 50px;
+}
+*{
+    color: white;
+}
+div{
+    margin-top: 30px;
+}
