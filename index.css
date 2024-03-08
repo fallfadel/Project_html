@@ -1,0 +1,65 @@
+#nav{
+    border-radius: 15px;
+    margin: 40px;
+}
+li,#base{
+    display: inline-block;
+}
+li{
+   display: inline-block;padding: auto;
+   border: solid;border-color: black;border-radius: 12px;
+   padding: 7px;background-color: gray;margin: 4px;
+}
+#base{
+    display: block;position: fixed;
+    border: solid;border-radius: 12px;
+    border-color: white;
+    padding: 3px;background-color: gray;
+}
+#base:hover{
+    background-color: brown;
+}
+body{
+    background-image: url(polynesia-3021072_1280.jpg);
+    background-size: cover;background-attachment: fixed;
+    background-position:center;height: 800px;
+}
+li:hover{
+      background-color: bisque;
+      border: solid;border-color: black;border-radius: 12px;
+}
+.base_box{
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 1);
+    height: 450px;
+    width: 260px;
+    padding: 3px;text-align: center;
+    border-radius: 15px;
+    margin-left: 30px;padding-bottom: 20px;
+    transition: 600ms ; overflow: hidden;
+    backdrop-filter: blur(15px);
+}
+div{
+    display: block;
+}
+.boite{
+    display: flex;
+    width: 200vh;
+    height: 50vh;
+}
+a{
+    color: black;
+    font-size: larger;
+}
+.base_box:hover{
+    transform: scale(1.2);
+}
+img{transition: 2s;
+    border-radius: 10px;
+    filter: blur(-15px);
+}
+img:hover{
+    transform: scale(2);
+}
+h1{
+    height: 70px;
+}
