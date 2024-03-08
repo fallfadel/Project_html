@@ -1,0 +1,78 @@
+button{
+    display: inline-block;
+    background-color: cyan;
+    border-radius: 10px;border: none;
+    box-shadow: 0 0 5px cyan , 0 0  30px cyan;
+    margin-top: 10px;margin-left: 4px;
+}
+button:hover{
+    box-shadow: 0 0 5px yellow , 0 0  30px yellow;
+}
+a{
+    color: black;
+    font-size: large;
+}
+#tail{
+    height: 450px;
+}
+body{
+    background-image: url(doubai.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+video{
+    display: block;
+    float: left;
+    margin-left: 8px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+img{
+    display: block;
+    width: 95%;
+    float: left;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+p:hover{
+    background-color: black;
+    border-radius: 10px;
+}
+p{
+    display: block;
+    margin: 10px;
+    font-size: x-large;
+    margin-top: 10px;
+    color: white;
+    transition: 400ms;
+}
+.scroller{
+    overflow: hidden;
+    backdrop-filter: blur(20px);background-color: rgba(0, 0, 0, 0.558);
+    padding: 5px;
+    border-radius: 10px;
+    height: 3000px;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+#lenovo,#content{
+      margin: 30px;
+}
+#Palm{
+    display: block;
+    float: right;
+}
+h3{
+    font-size: xx-large;
+    color: white;
+}
+h1{
+    font-size: xx-large;
+    color: white;
+}
+div{
+    margin-top: 30px;
+}
